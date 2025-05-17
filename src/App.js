@@ -35,7 +35,6 @@ const App = () => {
             <Route path="/job/:id" element={<JobDetails />} />
           </Routes>
         </Content>
-        <Footer style={{ textAlign: 'center' }}>Knovator Technologies ©2025</Footer>
       </Layout>
     </Router>
   );
